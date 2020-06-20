@@ -10,5 +10,5 @@ var (
 
 
 func main() {
-	fmt.Printf("My name is: " + name + "\n")
+	fmt.Printf("My name is: %s \n", name)
 }

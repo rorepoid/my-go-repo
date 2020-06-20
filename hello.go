@@ -4,5 +4,7 @@ import "fmt"
 
 func main() {
 	name := "Roberto"
-	fmt.Printf("My name is: %s \n", name)
+	age := 20
+	location := "Peru"
+	fmt.Printf("My name is: %s \nI am %d \nI live in %s\n", name, age, location)
 }
